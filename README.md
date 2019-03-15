@@ -1,1 +1,3 @@
-## Design Pattern
+## Design Pattern 
+系统的整理了一下常见的设计模式。
+本项目为常见设计模式的代码示例及应用场景介绍。
