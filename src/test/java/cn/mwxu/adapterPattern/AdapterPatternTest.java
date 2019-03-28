@@ -1,15 +1,21 @@
-package cn.mwxu.AdapterPattern.bestPractice;
+package cn.mwxu.adapterPattern;
 
-import cn.mwxu.AdapterPattern.bestPractice.adapter.EarPhoneAdapter;
-import cn.mwxu.AdapterPattern.bestPractice.threePointFive.ThreePointFiveEarPhone;
-import cn.mwxu.AdapterPattern.bestPractice.threePointFive.ThreePointFiveEarPhoneInterface;
+import cn.mwxu.adapterPattern.bestPractice.adapter.EarPhoneAdapter;
+import cn.mwxu.adapterPattern.bestPractice.iPhone8Plus;
+import cn.mwxu.adapterPattern.bestPractice.threePointFive.ThreePointFiveEarPhone;
+import cn.mwxu.adapterPattern.bestPractice.threePointFive.ThreePointFiveEarPhoneInterface;
+import org.junit.Test;
 
 /**
- * lightning 转 3.5 毫米 接口转换器测试
+ * 测试适配器模式
  */
-public class EarPhoneAdapterTest {
+public class AdapterPatternTest {
 
-    public static void main(String[] args) {
+    /**
+     * lightning 转 3.5 毫米 接口转换器测试
+     */
+    @Test
+    public void testLightningToThreePointFive() {
 
         //准备一部lightning接口的iPhone8 Plus手机
         iPhone8Plus iPhone8Plus = new iPhone8Plus();

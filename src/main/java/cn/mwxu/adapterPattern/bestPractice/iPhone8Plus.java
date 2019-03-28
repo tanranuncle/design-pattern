@@ -1,6 +1,6 @@
-package cn.mwxu.AdapterPattern.bestPractice;
+package cn.mwxu.adapterPattern.bestPractice;
 
-import cn.mwxu.AdapterPattern.bestPractice.lightning.LightningEarPhoneInterface;
+import cn.mwxu.adapterPattern.bestPractice.lightning.LightningEarPhoneInterface;
 
 /**
  * 一部 lightning 接口的 iPhone8 Plus 手机

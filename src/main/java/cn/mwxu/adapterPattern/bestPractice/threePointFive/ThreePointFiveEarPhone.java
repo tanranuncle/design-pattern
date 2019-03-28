@@ -1,4 +1,4 @@
-package cn.mwxu.AdapterPattern.bestPractice.threePointFive;
+package cn.mwxu.adapterPattern.bestPractice.threePointFive;
 
 /**
  * 一款3.5毫米接口的耳机

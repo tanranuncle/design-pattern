@@ -1,4 +1,4 @@
-package cn.mwxu.AdapterPattern.bestPractice.lightning;
+package cn.mwxu.adapterPattern.bestPractice.lightning;
 
 /**
  * Lightning 耳机接口标准

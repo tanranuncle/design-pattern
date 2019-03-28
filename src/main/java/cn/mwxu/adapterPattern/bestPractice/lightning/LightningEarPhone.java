@@ -1,4 +1,4 @@
-package cn.mwxu.AdapterPattern.bestPractice.lightning;
+package cn.mwxu.adapterPattern.bestPractice.lightning;
 
 /**
  * 一款lightning接口的耳机

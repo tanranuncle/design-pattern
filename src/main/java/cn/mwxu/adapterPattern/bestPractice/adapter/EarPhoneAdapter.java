@@ -1,7 +1,7 @@
-package cn.mwxu.AdapterPattern.bestPractice.adapter;
+package cn.mwxu.adapterPattern.bestPractice.adapter;
 
-import cn.mwxu.AdapterPattern.bestPractice.lightning.LightningEarPhoneInterface;
-import cn.mwxu.AdapterPattern.bestPractice.threePointFive.ThreePointFiveEarPhoneInterface;
+import cn.mwxu.adapterPattern.bestPractice.lightning.LightningEarPhoneInterface;
+import cn.mwxu.adapterPattern.bestPractice.threePointFive.ThreePointFiveEarPhoneInterface;
 
 /**
  * 一个 lightning 转 3.5 毫米 的转换器
