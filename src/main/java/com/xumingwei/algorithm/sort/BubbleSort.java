@@ -17,7 +17,8 @@ public class BubbleSort extends BaseSort {
         //1、第一层循环，用于控制循环次数（即：循环 size 次）
         for (int i = 0; i < size; i++){
             //2、第二层循环，用于比较和交换。j元素代表光标所在元素
-            for(int j = 0 ; j < size - 1; j++){
+            //由于每次循环结束之后，最右侧已排序元素就会增加一个。因此光标移动的范围是在未排序元素之间，避免最右侧的重复比较。
+            for(int j = 0 ; j < size -i - 1; j++){
                 //3、当前光标所在元素
                 int a = sourceDataList.get(j);
                 //4、当前光标的后一位元素

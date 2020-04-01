@@ -5,7 +5,7 @@ import com.xumingwei.algorithm.sort.base.BaseSort;
 import java.util.List;
 
 /**
- * @Description:
+ * @Description: 选择排序
  * @author: xumingwei
  * @date: 2019—12—19 15:34
  */
