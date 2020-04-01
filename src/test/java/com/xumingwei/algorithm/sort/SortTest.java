@@ -26,4 +26,10 @@ public class SortTest {
         InsertionSort insertionSort = new InsertionSort();
         insertionSort.sort();
     }
+
+    @Test
+    public void testQuickSort(){
+        QuickSort quickSort = new QuickSort();
+        quickSort.sort();
+    }
 }
