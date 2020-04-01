@@ -1,4 +1,4 @@
-package com.xumingwei.algorithm.sort.selection;
+package com.xumingwei.algorithm.sort;
 
 import com.xumingwei.algorithm.sort.base.BaseSort;
 

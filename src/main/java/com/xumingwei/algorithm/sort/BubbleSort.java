@@ -1,6 +1,7 @@
-package com.xumingwei.algorithm.sort.bubble;
+package com.xumingwei.algorithm.sort;
 
 import com.xumingwei.algorithm.sort.base.BaseSort;
+import org.junit.Test;
 
 import java.util.List;
 
