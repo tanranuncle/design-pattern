@@ -20,4 +20,10 @@ public class SortTest {
         SelectionSort selectionSort = new SelectionSort();
         selectionSort.sort();
     }
+
+    @Test
+    public void testInsertionSort(){
+        InsertionSort insertionSort = new InsertionSort();
+        insertionSort.sort();
+    }
 }
