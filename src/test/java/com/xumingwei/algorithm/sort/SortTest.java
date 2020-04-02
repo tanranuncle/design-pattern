@@ -32,4 +32,10 @@ public class SortTest {
         QuickSort quickSort = new QuickSort();
         quickSort.sort();
     }
+
+    @Test
+    public void testMergeSort(){
+        MergeSort mergeSort = new MergeSort();
+        mergeSort.sort();
+    }
 }

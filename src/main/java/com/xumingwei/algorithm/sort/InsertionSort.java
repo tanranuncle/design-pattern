@@ -12,6 +12,11 @@ import java.util.List;
 public class InsertionSort extends BaseSort {
 
     @Override
+    public String algorithmName() {
+        return "插入排序";
+    }
+
+    @Override
     public void algorithm(List<Integer> sourceDataList, List<Integer> targetDataList) {
         int size = sourceDataList.size();
         //1、假定第一个元素为有序序列，从第二个元素开始排序

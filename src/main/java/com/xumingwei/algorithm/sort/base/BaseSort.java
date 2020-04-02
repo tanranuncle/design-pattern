@@ -12,11 +12,18 @@ import java.util.Random;
 public abstract class BaseSort {
 
     /**
+     * 获取待排序元素个数
+     * @return
+     */
+    private int getNum(){
+        return 50;
+    }
+    /**
      * 随机生成数据
      * @return
      */
     private List<Integer> loadData(){
-        int NUM = 50;
+        int NUM = getNum();
         List<Integer> initDataList = new ArrayList<>(NUM);
         Random random = new Random();
         for (int i = 0; i < NUM; i++) {
@@ -40,7 +47,7 @@ public abstract class BaseSort {
         algorithm(sourceDataList, tagetDataList);
         long end = System.currentTimeMillis();
         writeData(tagetDataList);
-        System.out.println("耗时：" + (end - start) + " 毫秒");
+        System.out.println("算法名称：" + algorithmName() + " , 待排序元素个数：" + getNum() +" 个, 耗时：" + (end - start) + " 毫秒\n");
     }
 
     /**
@@ -49,4 +56,12 @@ public abstract class BaseSort {
      * @param targetDataList
      */
     public abstract void algorithm(List<Integer> sourceDataList, List<Integer> targetDataList);
+
+    /**
+     * 算法名称，由子类重写
+     * @return
+     */
+    public String algorithmName(){
+        return "未知";
+    }
 }

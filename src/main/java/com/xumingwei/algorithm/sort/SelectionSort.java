@@ -11,6 +11,10 @@ import java.util.List;
  */
 public class SelectionSort extends BaseSort {
 
+    @Override
+    public String algorithmName() {
+        return "选择排序";
+    }
 
     @Override
     public void algorithm(List<Integer> sourceDataList, List<Integer> targetDataList) {

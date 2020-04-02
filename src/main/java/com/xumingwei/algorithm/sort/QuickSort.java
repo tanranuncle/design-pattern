@@ -11,6 +11,11 @@ import java.util.List;
 public class QuickSort extends BaseSort{
 
     @Override
+    public String algorithmName() {
+        return "快速排序";
+    }
+
+    @Override
     public void algorithm(List<Integer> sourceDataList, List<Integer> targetDataList) {
         //1、对整个序列进行排序
         List<Integer> list = toSort(sourceDataList, 0, sourceDataList.size() - 1);

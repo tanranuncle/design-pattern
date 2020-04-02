@@ -12,6 +12,11 @@ import java.util.List;
 public class BubbleSort extends BaseSort {
 
     @Override
+    public String algorithmName() {
+        return "冒泡排序";
+    }
+
+    @Override
     public void algorithm(List<Integer> sourceDataList, List<Integer> targetDataList) {
         int size = sourceDataList.size();
         //1、第一层循环，用于控制循环次数（即：循环 size 次）
