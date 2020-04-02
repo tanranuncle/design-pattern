@@ -30,7 +30,7 @@ public class QuickSort extends BaseSort{
      * @return
      */
     private List<Integer> toSort(List<Integer> dataList, int left, int right){
-        //1、只有左端点小于右端点下标时，区间内才有元素。否则没有元素，即为空区间，无需排序
+        //1、只有左端点小于右端点下标时，区间内才有两个及以上个元素。否则无需排序
         //注：当基准值一侧的子区间没有元素时，会出现left < right的情况
         //注：当基准值一侧的子区间只有一个元素时，会出现left = right的情况
         if(left < right){
