@@ -18,6 +18,14 @@ public abstract class BaseSort {
     private int getNum(){
         return 50;
     }
+
+    /**
+     * 详细模式（输出排序前后的序列）
+     * @return
+     */
+    private boolean detailMode(){
+        return true;
+    }
     /**
      * 随机生成数据
      * @return
@@ -29,7 +37,9 @@ public abstract class BaseSort {
         for (int i = 0; i < NUM; i++) {
             initDataList.add(random.nextInt(100));
         }
-        System.out.println("排序前：" + initDataList);
+        if(detailMode()) {
+            System.out.println("排序前：" + initDataList);
+        }
         return initDataList;
     }
 
@@ -37,7 +47,9 @@ public abstract class BaseSort {
      * 输出结果到控制台
      */
     private void writeData(List<Integer> dataList){
-        System.out.println("排序后："  + dataList);
+        if(detailMode()) {
+            System.out.println("排序后：" + dataList);
+        }
     }
 
     public void sort(){

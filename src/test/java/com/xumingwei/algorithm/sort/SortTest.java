@@ -11,31 +11,26 @@ public class SortTest {
 
     @Test
     public void testBubbleSort(){
-        BubbleSort bubbleSort = new BubbleSort();
-        bubbleSort.sort();
+        new BubbleSort().sort();
     }
 
     @Test
     public void testSelectionSort(){
-        SelectionSort selectionSort = new SelectionSort();
-        selectionSort.sort();
+        new SelectionSort().sort();
     }
 
     @Test
     public void testInsertionSort(){
-        InsertionSort insertionSort = new InsertionSort();
-        insertionSort.sort();
+        new InsertionSort().sort();
     }
 
     @Test
     public void testQuickSort(){
-        QuickSort quickSort = new QuickSort();
-        quickSort.sort();
+        new QuickSort().sort();
     }
 
     @Test
     public void testMergeSort(){
-        MergeSort mergeSort = new MergeSort();
-        mergeSort.sort();
+        new MergeSort().sort();
     }
 }
